@@ -1,0 +1,6 @@
+CREATE SCHEMA IF NOT EXISTS jie;
+
+CREATE TABLE IF NOT EXISTS jie.foo (
+  id      SERIAL PRIMARY KEY,
+  value   BIGINT
+)
